@@ -11,6 +11,3 @@ const buildSnailPath = (matrix) => {
 };
 
 // export default buildSnailPath;
-
-
-
