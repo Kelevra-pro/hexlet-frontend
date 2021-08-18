@@ -31,7 +31,7 @@ const getFreeDomainsCount = (emails) => emails
   return { ...acc, [domain]: count };
 }, {});
 
-export default getFreeDomainsCount;
+// export default getFreeDomainsCount;
 
 getFreeDomainsCount(emails);
 // {

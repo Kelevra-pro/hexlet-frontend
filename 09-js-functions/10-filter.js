@@ -28,7 +28,7 @@ const getGirlFriends = (users) => {
   return friendsOfUsers.flat().filter(({ gender }) => gender === 'female');
 };
 
-export default getGirlFriends;
+// export default getGirlFriends;
 
 getGirlFriends(users);
 // [

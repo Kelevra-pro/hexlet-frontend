@@ -22,7 +22,7 @@ const getMenCountByYear = (users) => {
   }, {});
 };
 
-export default getMenCountByYear;
+// export default getMenCountByYear;
 
 getMenCountByYear(users);
 // {
