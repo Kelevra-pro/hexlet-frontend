@@ -1,4 +1,4 @@
-import gt from '../09-js-testing/06-matchers';
+import gt from './06-matchers';
 
 test('gt', () => {
   expect(gt(3, 1)).toBeTruthy();
