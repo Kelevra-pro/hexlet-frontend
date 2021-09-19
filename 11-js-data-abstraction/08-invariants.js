@@ -11,15 +11,13 @@ const getDenom = (rational) => rational.denom;
 
 const add = (rational1, rational2) => (
   makeRational(
-    getNumer(rational1) * getDenom(rational2) + getNumer(rational2) *
-    getDenom(rational1),
+    getNumer(rational1) * getDenom(rational2) + getNumer(rational2) * getDenom(rational1),
     getDenom(rational1) * getDenom(rational2),
   ));
 
 const sub = (rational1, rational2) => (
   makeRational(
-    getNumer(rational1) * getDenom(rational2) - getNumer(rational2) *
-    getDenom(rational1),
+    getNumer(rational1) * getDenom(rational2) - getNumer(rational2) * getDenom(rational1),
     getDenom(rational1) * getDenom(rational2),
   ));
 
