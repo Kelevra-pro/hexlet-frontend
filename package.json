@@ -6,6 +6,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "@hexlet/immutable-fs-trees": "^0.7.1",
     "crc-32": "^1.2.0",
     "lodash": "^4.17.21",
     "power-assert": "^1.6.1"
