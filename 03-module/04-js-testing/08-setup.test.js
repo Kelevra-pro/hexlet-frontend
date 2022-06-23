@@ -1,5 +1,5 @@
 import _ from 'lodash';
-import set from './08-setup';
+import set from './08-setup.js';
 
 let data;
 let dataCopy;

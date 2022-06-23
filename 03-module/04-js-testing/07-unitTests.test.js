@@ -1,5 +1,5 @@
 import _ from 'lodash';
-import makeValidator from './07-unitTests';
+import makeValidator from './07-unitTests.js';
 
 test('makeValidator', () => {
   const validator = makeValidator();

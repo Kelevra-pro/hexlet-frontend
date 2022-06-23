@@ -1,4 +1,4 @@
-import getImplementation from './09-badPractice';
+import getImplementation from './09-badPractice.js';
 
 test('Cart', () => {
   const cart = getImplementation();

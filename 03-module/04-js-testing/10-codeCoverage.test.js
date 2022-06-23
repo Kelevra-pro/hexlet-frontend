@@ -1,4 +1,4 @@
-import { get, indexOf, slice } from './10-codeCoverage';
+import { get, indexOf, slice } from './10-codeCoverage.js';
 
 test('testing function get()', () => {
   const actual1 = get([1, 2, 3], 1, 'a');
